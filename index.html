@@ -3,70 +3,99 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dieter Coppens | Programmer & Sports Enthusiast</title>
+    <title>Dieter Coppens | Researcher in Wireless Communication & Localization</title>
     <style>
         body {
             font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
             line-height: 1.6;
             color: #333;
-            max-width: 800px;
+            max-width: 900px;
             margin: 0 auto;
             padding: 2rem;
-            background-color: #f4f4f9;
+            background-color: #f8f9fa;
         }
         header {
             text-align: center;
-            padding: 2rem 0;
-            background: #2c3e50;
+            padding: 3rem 0;
+            background: #1a2a3a;
             color: white;
             border-radius: 8px;
             margin-bottom: 2rem;
         }
-        h1 { margin: 0; }
-        .tagline { font-style: italic; opacity: 0.9; }
+        h1 { margin: 0; font-size: 2.5rem; }
+        .tagline { font-size: 1.2rem; opacity: 0.9; margin-top: 0.5rem; }
         section {
             background: white;
-            padding: 1.5rem;
+            padding: 2rem;
             border-radius: 8px;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-            margin-bottom: 1.5rem;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+            margin-bottom: 2rem;
         }
-        h2 { color: #2c3e50; border-bottom: 2px solid #eee; padding-bottom: 0.5rem; }
+        h2 { color: #1a2a3a; border-bottom: 2px solid #eee; padding-bottom: 0.5rem; margin-top: 0; }
+        .paper { margin-bottom: 1.5rem; padding-bottom: 1rem; border-bottom: 1px dashed #eee; }
+        .paper:last-child { border-bottom: none; }
+        .paper-title { font-weight: bold; color: #2c3e50; display: block; text-decoration: none; }
+        .paper-title:hover { color: #3498db; }
+        .paper-meta { font-size: 0.9rem; color: #666; }
         .links a {
             display: inline-block;
-            margin-right: 1rem;
+            margin-right: 1.5rem;
             color: #3498db;
             text-decoration: none;
             font-weight: bold;
         }
         .links a:hover { text-decoration: underline; }
-        footer { text-align: center; font-size: 0.8rem; color: #777; margin-top: 2rem; }
+        footer { text-align: center; font-size: 0.85rem; color: #888; margin-top: 3rem; padding-bottom: 2rem; }
     </style>
 </head>
 <body>
     <header>
         <h1>Dieter Coppens</h1>
-        <p class="tagline">Programmer, Sports Enthusiast, and AI Explorer</p>
+        <p class="tagline">Researcher @ Ghent University | Ultra-Wideband (UWB) & Machine Learning</p>
     </header>
 
     <section>
-        <h2>About Me</h2>
-        <p>I'm a programmer interested in signal processing (UWB), Reinforcement Learning, and building efficient systems. When I'm not coding, you'll find me following sports or experimenting with AI agents.</p>
-    </section>
-
-    <section>
-        <h2>GitHub Projects</h2>
-        <ul>
-            <li><strong>UWB TDoA CIR:</strong> Signal processing and fingerprinting datasets.</li>
-            <li><strong>UWB-DRL-PHY:</strong> Deep Reinforcement Learning for radio adaptation.</li>
-        </ul>
+        <h2>About Research</h2>
+        <p>I am a researcher at Ghent University focusing on Ultra-Wideband (UWB) technology, wireless communication, and localization. My work explores self-adaptation, error correction using Deep Reinforcement Learning, and the application of Transformer networks to improve indoor positioning accuracy.</p>
         <div class="links">
-            <a href="https://github.com/dietercoppens">GitHub Profile</a>
+            <a href="https://scholar.google.com/citations?user=WQ3BouEAAAAJ">Google Scholar</a>
+            <a href="https://github.com/dietercoppens">GitHub</a>
+            <a href="https://biblio.ugent.be/person/802003523528">Ugent Biblio</a>
         </div>
     </section>
 
+    <section>
+        <h2>Selected Publications</h2>
+        
+        <div class="paper">
+            <a class="paper-title" href="https://ieeexplore.ieee.org/document/9810941">An overview of UWB standards and organizations (IEEE 802.15.4, FiRa, Apple): Interoperability aspects and future research directions</a>
+            <span class="paper-meta">IEEE Access, 2022</span>
+        </div>
+
+        <div class="paper">
+            <a class="paper-title" href="https://ieeexplore.ieee.org/document/11237034">UWB TDoA Error Correction Using Transformers: Patching and Positional Encoding Strategies</a>
+            <span class="paper-meta">IEEE Transactions on ..., 2025</span>
+        </div>
+
+        <div class="paper">
+            <a class="paper-title" href="https://ieeexplore.ieee.org/document/10695458">Removing the need for ground truth UWB data collection: self-supervised ranging error correction using deep reinforcement learning</a>
+            <span class="paper-meta">Machine Learning in ..., 2024</span>
+        </div>
+
+        <div class="paper">
+            <a class="paper-title" href="https://ieeexplore.ieee.org/document/10273695">Deep reinforcement learning for automatic run-time adaptation of UWB PHY radio settings</a>
+            <span class="paper-meta">IEEE Transactions on ..., 2023</span>
+        </div>
+
+        <div class="paper">
+            <a class="paper-title" href="https://ieeexplore.ieee.org/document/10786138">Beyond Convolutions: Transformer Networks for Improved UWB CIR-based Fingerprinting</a>
+            <span class="paper-meta">14th International ..., 2024</span>
+        </div>
+
+    </section>
+
     <footer>
-        <p>Generated by Neo 🕶️ | Hosted on AWS EC2</p>
+        <p>&copy; 2026 Dieter Coppens | Built by Neo 🕶️</p>
     </footer>
 </body>
 </html>
